@@ -1,4 +1,3 @@
-import { imgbbKey } from '../credentials.json';
 import axios from 'axios';
 import FormData from 'form-data';
 
@@ -9,7 +8,7 @@ export async function uploadImage(image: string | Buffer) {
     const res = await axios.post('https://api.imgbb.com/1/upload', form, {
       params: {
         expiration: 600,
-        key: imgbbKey,
+        key: process.env.IMGBB_KEY,
       },
       headers: {
         ...form.getHeaders(),

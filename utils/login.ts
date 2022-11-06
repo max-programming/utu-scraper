@@ -1,4 +1,3 @@
-import { userId, password } from '../credentials.json';
 import { Page } from 'puppeteer';
 
 export default async function login(page: Page) {
@@ -12,11 +11,11 @@ export default async function login(page: Page) {
         'btnSignIn'
       ) as HTMLButtonElement;
 
-      userIdEl.value = userId;
-      passwordEl.value = password;
+      userIdEl.value = userId!;
+      passwordEl.value = password!;
 
       btnSignIn.click();
     },
-    { userId, password }
+    { userId: process.env.USER_ID, password: process.env.PASSWORD }
   );
 }

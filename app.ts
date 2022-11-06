@@ -1,9 +1,11 @@
 import fastify from 'fastify';
 import FastifyViewPlugin from '@fastify/view';
+import FastifyEnvPlugin from '@fastify/env';
 import scraper from './scraper';
 
 const server = fastify();
 
+server.register(FastifyEnvPlugin);
 server.register(FastifyViewPlugin, {
   engine: {
     ejs: require('ejs'),
