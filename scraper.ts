@@ -11,7 +11,7 @@ import login from './utils/login';
 puppeteer.use(StealthPlugin());
 puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 
-async function scraper() {
+async function scraper(type: 'attendance' | 'evaluation') {
   const browser = await puppeteer.launch({
     headless: true,
     executablePath:
@@ -27,15 +27,17 @@ async function scraper() {
   });
   console.log('Page opened');
 
-  await login(page);
-  const attImg = await getAttendanceScreenshot(page);
-
-  await page.click('#ctl00_mnuItems > ul > li:nth-child(3) > a');
-
-  const evalImg = await getEvaluationScreenshot(page);
-
-  await browser.close();
-  return { attImg, evalImg };
+  await Promise.all([await login(page), await page.waitForNavigation()]);
+  if (type === 'attendance') {
+    const attImg = await getAttendanceScreenshot(page);
+    await browser.close();
+    return attImg;
+  } else {
+    await page.click('#ctl00_mnuItems > ul > li:nth-child(3) > a');
+    const evalImg = await getEvaluationScreenshot(page);
+    await browser.close();
+    return evalImg;
+  }
 }
 
 export default scraper;

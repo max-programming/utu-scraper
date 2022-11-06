@@ -22,12 +22,23 @@ server.register(FastifyViewPlugin, {
   },
 });
 
-server.get('/', async (request, reply) => {
-  const { attImg, evalImg } = await scraper();
-  // return `Attendance: <img src="${attImg.data.data.url}" />\nEvaluation: <img src="${evalImg.data.data.url}" />`;
-  return reply.view('./templates/index.ejs', {
-    img1: attImg.data.data.url,
-    img2: evalImg.data.data.url,
+server.get('/', (request, reply) => {
+  return reply.view('./templates/index.ejs');
+});
+
+server.get('/attendance', async (request, reply) => {
+  const image = await scraper('attendance');
+  return reply.view('./templates/screenshotPage.ejs', {
+    image: image.data.data.display_url,
+    title: 'Attendance Page',
+  });
+});
+
+server.get('/evaluation', async (request, reply) => {
+  const image = await scraper('evaluation');
+  return reply.view('./templates/screenshotPage.ejs', {
+    image: image.data.data.display_url,
+    title: 'Evaluation Page',
   });
 });
 
