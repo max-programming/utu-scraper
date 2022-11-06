@@ -42,10 +42,16 @@ server.get('/evaluation', async (request, reply) => {
   });
 });
 
-server.listen({ port: 8080 }, (err, address) => {
-  if (err) {
-    console.error(err);
-    process.exit(1);
+server.listen(
+  {
+    port: 8080,
+    host: process.env.NODE_ENV === 'production' ? '0.0.0.0' : '127.0.0.1',
+  },
+  (err, address) => {
+    if (err) {
+      console.error(err);
+      process.exit(1);
+    }
+    console.log(`Server listening at ${address}`);
   }
-  console.log(`Server listening at ${address}`);
-});
+);
