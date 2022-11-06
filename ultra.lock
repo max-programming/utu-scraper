@@ -1,0 +1,1048 @@
+{
+  "puppeteer-core": {
+    "19.2.0": {
+      "path": "\\node_modules\\puppeteer-core",
+      "cache": "\\puppeteer-core\\19.2.0"
+    },
+    "19.2.2": {
+      "path": "\\node_modules\\puppeteer\\node_modules\\puppeteer-core",
+      "cache": "\\puppeteer-core\\19.2.2"
+    }
+  },
+  "puppeteer-extra": {
+    "3.3.4": {
+      "path": "\\node_modules\\puppeteer-extra",
+      "cache": "\\puppeteer-extra\\3.3.4"
+    }
+  },
+  "puppeteer-extra-plugin-adblocker": {
+    "2.13.5": {
+      "path": "\\node_modules\\puppeteer-extra-plugin-adblocker",
+      "cache": "\\puppeteer-extra-plugin-adblocker\\2.13.5"
+    }
+  },
+  "ts-node-dev": {
+    "2.0.0": {
+      "path": "\\node_modules\\ts-node-dev",
+      "cache": "\\ts-node-dev\\2.0.0"
+    }
+  },
+  "typescript": {
+    "4.8.4": {
+      "path": "\\node_modules\\typescript",
+      "cache": "\\typescript\\4.8.4"
+    }
+  },
+  "cross-fetch": {
+    "3.1.5": {
+      "path": "\\node_modules\\cross-fetch",
+      "cache": "\\cross-fetch\\3.1.5"
+    }
+  },
+  "@types/debug": {
+    "4.1.7": {
+      "path": "\\node_modules\\@types\\debug",
+      "cache": "\\@types\\debug\\4.1.7"
+    }
+  },
+  "@cliqz/adblocker-puppeteer": {
+    "1.23.8": {
+      "path": "\\node_modules\\@cliqz\\adblocker-puppeteer",
+      "cache": "\\@cliqz\\adblocker-puppeteer\\1.23.8"
+    }
+  },
+  "node-fetch": {
+    "2.6.7": {
+      "path": "\\node_modules\\node-fetch",
+      "cache": "\\node-fetch\\2.6.7"
+    }
+  },
+  "@cliqz/adblocker": {
+    "1.25.1": {
+      "path": "\\node_modules\\@cliqz\\adblocker",
+      "cache": "\\@cliqz\\adblocker\\1.25.1"
+    }
+  },
+  "whatwg-url": {
+    "5.0.0": {
+      "path": "\\node_modules\\whatwg-url",
+      "cache": "\\whatwg-url\\5.0.0"
+    }
+  },
+  "deepmerge": {
+    "4.2.2": {
+      "path": "\\node_modules\\deepmerge",
+      "cache": "\\deepmerge\\4.2.2"
+    }
+  },
+  "@remusao/guess-url-type": {
+    "1.2.1": {
+      "path": "\\node_modules\\@remusao\\guess-url-type",
+      "cache": "\\@remusao\\guess-url-type\\1.2.1"
+    }
+  },
+  "tr46": {
+    "0.0.3": {
+      "path": "\\node_modules\\tr46",
+      "cache": "\\tr46\\0.0.3"
+    }
+  },
+  "debug": {
+    "4.3.4": {
+      "path": "\\node_modules\\debug",
+      "cache": "\\debug\\4.3.4"
+    }
+  },
+  "@remusao/small": {
+    "1.2.1": {
+      "path": "\\node_modules\\@remusao\\small",
+      "cache": "\\@remusao\\small\\1.2.1"
+    }
+  },
+  "webidl-conversions": {
+    "3.0.1": {
+      "path": "\\node_modules\\webidl-conversions",
+      "cache": "\\webidl-conversions\\3.0.1"
+    }
+  },
+  "ms": {
+    "2.1.2": {
+      "path": "\\node_modules\\ms",
+      "cache": "\\ms\\2.1.2"
+    }
+  },
+  "@remusao/smaz": {
+    "1.9.1": {
+      "path": "\\node_modules\\@remusao\\smaz",
+      "cache": "\\@remusao\\smaz\\1.9.1"
+    }
+  },
+  "@remusao/smaz-compress": {
+    "1.9.1": {
+      "path": "\\node_modules\\@remusao\\smaz-compress",
+      "cache": "\\@remusao\\smaz-compress\\1.9.1"
+    }
+  },
+  "@remusao/trie": {
+    "1.4.1": {
+      "path": "\\node_modules\\@remusao\\trie",
+      "cache": "\\@remusao\\trie\\1.4.1"
+    }
+  },
+  "devtools-protocol": {
+    "0.0.1056733": {
+      "path": "\\node_modules\\devtools-protocol",
+      "cache": "\\devtools-protocol\\0.0.1056733"
+    }
+  },
+  "extract-zip": {
+    "2.0.1": {
+      "path": "\\node_modules\\extract-zip",
+      "cache": "\\extract-zip\\2.0.1"
+    }
+  },
+  "@remusao/smaz-decompress": {
+    "1.9.1": {
+      "path": "\\node_modules\\@remusao\\smaz-decompress",
+      "cache": "\\@remusao\\smaz-decompress\\1.9.1"
+    }
+  },
+  "@types/chrome": {
+    "0.0.197": {
+      "path": "\\node_modules\\@types\\chrome",
+      "cache": "\\@types\\chrome\\0.0.197"
+    }
+  },
+  "@types/firefox-webext-browser": {
+    "94.0.1": {
+      "path": "\\node_modules\\@types\\firefox-webext-browser",
+      "cache": "\\@types\\firefox-webext-browser\\94.0.1"
+    }
+  },
+  "@cliqz/adblocker-content": {
+    "1.25.1": {
+      "path": "\\node_modules\\@cliqz\\adblocker-content",
+      "cache": "\\@cliqz\\adblocker-content\\1.25.1"
+    }
+  },
+  "@cliqz/adblocker-extended-selectors": {
+    "1.25.1": {
+      "path": "\\node_modules\\@cliqz\\adblocker-extended-selectors",
+      "cache": "\\@cliqz\\adblocker-extended-selectors\\1.25.1"
+    }
+  },
+  "tldts-experimental": {
+    "5.7.98": {
+      "path": "\\node_modules\\tldts-experimental",
+      "cache": "\\tldts-experimental\\5.7.98"
+    }
+  },
+  "tldts-core": {
+    "5.7.98": {
+      "path": "\\node_modules\\tldts-core",
+      "cache": "\\tldts-core\\5.7.98"
+    }
+  },
+  "puppeteer": {
+    "19.2.2": {
+      "path": "\\node_modules\\puppeteer",
+      "cache": "\\puppeteer\\19.2.2"
+    }
+  },
+  "cosmiconfig": {
+    "7.0.1": {
+      "path": "\\node_modules\\cosmiconfig",
+      "cache": "\\cosmiconfig\\7.0.1"
+    }
+  },
+  "@types/parse-json": {
+    "4.0.0": {
+      "path": "\\node_modules\\@types\\parse-json",
+      "cache": "\\@types\\parse-json\\4.0.0"
+    }
+  },
+  "parse-json": {
+    "5.2.0": {
+      "path": "\\node_modules\\parse-json",
+      "cache": "\\parse-json\\5.2.0"
+    }
+  },
+  "@babel/code-frame": {
+    "7.18.6": {
+      "path": "\\node_modules\\@babel\\code-frame",
+      "cache": "\\@babel\\code-frame\\7.18.6"
+    }
+  },
+  "@babel/highlight": {
+    "7.18.6": {
+      "path": "\\node_modules\\@babel\\highlight",
+      "cache": "\\@babel\\highlight\\7.18.6"
+    }
+  },
+  "@babel/helper-validator-identifier": {
+    "7.19.1": {
+      "path": "\\node_modules\\@babel\\helper-validator-identifier",
+      "cache": "\\@babel\\helper-validator-identifier\\7.19.1"
+    }
+  },
+  "chalk": {
+    "2.4.2": {
+      "path": "\\node_modules\\chalk",
+      "cache": "\\chalk\\2.4.2"
+    }
+  },
+  "ansi-styles": {
+    "3.2.1": {
+      "path": "\\node_modules\\ansi-styles",
+      "cache": "\\ansi-styles\\3.2.1"
+    }
+  },
+  "color-convert": {
+    "1.9.3": {
+      "path": "\\node_modules\\color-convert",
+      "cache": "\\color-convert\\1.9.3"
+    }
+  },
+  "color-name": {
+    "1.1.3": {
+      "path": "\\node_modules\\color-name",
+      "cache": "\\color-name\\1.1.3"
+    }
+  },
+  "supports-color": {
+    "5.5.0": {
+      "path": "\\node_modules\\supports-color",
+      "cache": "\\supports-color\\5.5.0"
+    }
+  },
+  "has-flag": {
+    "3.0.0": {
+      "path": "\\node_modules\\has-flag",
+      "cache": "\\has-flag\\3.0.0"
+    }
+  },
+  "escape-string-regexp": {
+    "1.0.5": {
+      "path": "\\node_modules\\escape-string-regexp",
+      "cache": "\\escape-string-regexp\\1.0.5"
+    }
+  },
+  "js-tokens": {
+    "4.0.0": {
+      "path": "\\node_modules\\js-tokens",
+      "cache": "\\js-tokens\\4.0.0"
+    }
+  },
+  "error-ex": {
+    "1.3.2": {
+      "path": "\\node_modules\\error-ex",
+      "cache": "\\error-ex\\1.3.2"
+    }
+  },
+  "is-arrayish": {
+    "0.2.1": {
+      "path": "\\node_modules\\is-arrayish",
+      "cache": "\\is-arrayish\\0.2.1"
+    }
+  },
+  "json-parse-even-better-errors": {
+    "2.3.1": {
+      "path": "\\node_modules\\json-parse-even-better-errors",
+      "cache": "\\json-parse-even-better-errors\\2.3.1"
+    }
+  },
+  "lines-and-columns": {
+    "1.2.4": {
+      "path": "\\node_modules\\lines-and-columns",
+      "cache": "\\lines-and-columns\\1.2.4"
+    }
+  },
+  "import-fresh": {
+    "3.3.0": {
+      "path": "\\node_modules\\import-fresh",
+      "cache": "\\import-fresh\\3.3.0"
+    }
+  },
+  "parent-module": {
+    "1.0.1": {
+      "path": "\\node_modules\\parent-module",
+      "cache": "\\parent-module\\1.0.1"
+    }
+  },
+  "callsites": {
+    "3.1.0": {
+      "path": "\\node_modules\\callsites",
+      "cache": "\\callsites\\3.1.0"
+    }
+  },
+  "resolve-from": {
+    "4.0.0": {
+      "path": "\\node_modules\\resolve-from",
+      "cache": "\\resolve-from\\4.0.0"
+    }
+  },
+  "path-type": {
+    "4.0.0": {
+      "path": "\\node_modules\\path-type",
+      "cache": "\\path-type\\4.0.0"
+    }
+  },
+  "yaml": {
+    "1.10.2": {
+      "path": "\\node_modules\\yaml",
+      "cache": "\\yaml\\1.10.2"
+    }
+  },
+  "progress": {
+    "2.0.3": {
+      "path": "\\node_modules\\progress",
+      "cache": "\\progress\\2.0.3"
+    }
+  },
+  "https-proxy-agent": {
+    "5.0.1": {
+      "path": "\\node_modules\\https-proxy-agent",
+      "cache": "\\https-proxy-agent\\5.0.1"
+    }
+  },
+  "agent-base": {
+    "6.0.2": {
+      "path": "\\node_modules\\agent-base",
+      "cache": "\\agent-base\\6.0.2"
+    }
+  },
+  "proxy-from-env": {
+    "1.1.0": {
+      "path": "\\node_modules\\proxy-from-env",
+      "cache": "\\proxy-from-env\\1.1.0"
+    }
+  },
+  "rimraf": {
+    "3.0.2": {
+      "path": "\\node_modules\\rimraf",
+      "cache": "\\rimraf\\3.0.2"
+    },
+    "2.7.1": {
+      "path": "\\node_modules\\ts-node-dev\\node_modules\\rimraf",
+      "cache": "\\rimraf\\2.7.1"
+    }
+  },
+  "chokidar": {
+    "3.5.3": {
+      "path": "\\node_modules\\chokidar",
+      "cache": "\\chokidar\\3.5.3"
+    }
+  },
+  "anymatch": {
+    "3.1.2": {
+      "path": "\\node_modules\\anymatch",
+      "cache": "\\anymatch\\3.1.2"
+    }
+  },
+  "picomatch": {
+    "2.3.1": {
+      "path": "\\node_modules\\picomatch",
+      "cache": "\\picomatch\\2.3.1"
+    }
+  },
+  "normalize-path": {
+    "3.0.0": {
+      "path": "\\node_modules\\normalize-path",
+      "cache": "\\normalize-path\\3.0.0"
+    }
+  },
+  "braces": {
+    "3.0.2": {
+      "path": "\\node_modules\\braces",
+      "cache": "\\braces\\3.0.2"
+    }
+  },
+  "fill-range": {
+    "7.0.1": {
+      "path": "\\node_modules\\fill-range",
+      "cache": "\\fill-range\\7.0.1"
+    }
+  },
+  "to-regex-range": {
+    "5.0.1": {
+      "path": "\\node_modules\\to-regex-range",
+      "cache": "\\to-regex-range\\5.0.1"
+    }
+  },
+  "is-number": {
+    "7.0.0": {
+      "path": "\\node_modules\\is-number",
+      "cache": "\\is-number\\7.0.0"
+    }
+  },
+  "glob-parent": {
+    "5.1.2": {
+      "path": "\\node_modules\\glob-parent",
+      "cache": "\\glob-parent\\5.1.2"
+    }
+  },
+  "is-glob": {
+    "4.0.3": {
+      "path": "\\node_modules\\is-glob",
+      "cache": "\\is-glob\\4.0.3"
+    }
+  },
+  "is-extglob": {
+    "2.1.1": {
+      "path": "\\node_modules\\is-extglob",
+      "cache": "\\is-extglob\\2.1.1"
+    }
+  },
+  "is-binary-path": {
+    "2.1.0": {
+      "path": "\\node_modules\\is-binary-path",
+      "cache": "\\is-binary-path\\2.1.0"
+    }
+  },
+  "binary-extensions": {
+    "2.2.0": {
+      "path": "\\node_modules\\binary-extensions",
+      "cache": "\\binary-extensions\\2.2.0"
+    }
+  },
+  "readdirp": {
+    "3.6.0": {
+      "path": "\\node_modules\\readdirp",
+      "cache": "\\readdirp\\3.6.0"
+    }
+  },
+  "fsevents": {
+    "2.3.2": {
+      "path": "\\node_modules\\fsevents",
+      "cache": "\\fsevents\\2.3.2"
+    }
+  },
+  "dynamic-dedupe": {
+    "0.3.0": {
+      "path": "\\node_modules\\dynamic-dedupe",
+      "cache": "\\dynamic-dedupe\\0.3.0"
+    }
+  },
+  "xtend": {
+    "4.0.2": {
+      "path": "\\node_modules\\xtend",
+      "cache": "\\xtend\\4.0.2"
+    }
+  },
+  "minimist": {
+    "1.2.7": {
+      "path": "\\node_modules\\minimist",
+      "cache": "\\minimist\\1.2.7"
+    }
+  },
+  "mkdirp": {
+    "1.0.4": {
+      "path": "\\node_modules\\mkdirp",
+      "cache": "\\mkdirp\\1.0.4"
+    }
+  },
+  "@types/yauzl": {
+    "2.10.0": {
+      "path": "\\node_modules\\@types\\yauzl",
+      "cache": "\\@types\\yauzl\\2.10.0"
+    }
+  },
+  "get-stream": {
+    "5.2.0": {
+      "path": "\\node_modules\\get-stream",
+      "cache": "\\get-stream\\5.2.0"
+    }
+  },
+  "pump": {
+    "3.0.0": {
+      "path": "\\node_modules\\pump",
+      "cache": "\\pump\\3.0.0"
+    }
+  },
+  "end-of-stream": {
+    "1.4.4": {
+      "path": "\\node_modules\\end-of-stream",
+      "cache": "\\end-of-stream\\1.4.4"
+    }
+  },
+  "once": {
+    "1.4.0": {
+      "path": "\\node_modules\\once",
+      "cache": "\\once\\1.4.0"
+    }
+  },
+  "wrappy": {
+    "1.0.2": {
+      "path": "\\node_modules\\wrappy",
+      "cache": "\\wrappy\\1.0.2"
+    }
+  },
+  "yauzl": {
+    "2.10.0": {
+      "path": "\\node_modules\\yauzl",
+      "cache": "\\yauzl\\2.10.0"
+    }
+  },
+  "buffer-crc32": {
+    "0.2.13": {
+      "path": "\\node_modules\\buffer-crc32",
+      "cache": "\\buffer-crc32\\0.2.13"
+    }
+  },
+  "fd-slicer": {
+    "1.1.0": {
+      "path": "\\node_modules\\fd-slicer",
+      "cache": "\\fd-slicer\\1.1.0"
+    }
+  },
+  "pend": {
+    "1.2.0": {
+      "path": "\\node_modules\\pend",
+      "cache": "\\pend\\1.2.0"
+    }
+  },
+  "tar-fs": {
+    "2.1.1": {
+      "path": "\\node_modules\\tar-fs",
+      "cache": "\\tar-fs\\2.1.1"
+    }
+  },
+  "chownr": {
+    "1.1.4": {
+      "path": "\\node_modules\\chownr",
+      "cache": "\\chownr\\1.1.4"
+    }
+  },
+  "mkdirp-classic": {
+    "0.5.3": {
+      "path": "\\node_modules\\mkdirp-classic",
+      "cache": "\\mkdirp-classic\\0.5.3"
+    }
+  },
+  "tar-stream": {
+    "2.2.0": {
+      "path": "\\node_modules\\tar-stream",
+      "cache": "\\tar-stream\\2.2.0"
+    }
+  },
+  "fs-constants": {
+    "1.0.0": {
+      "path": "\\node_modules\\fs-constants",
+      "cache": "\\fs-constants\\1.0.0"
+    }
+  },
+  "bl": {
+    "4.1.0": {
+      "path": "\\node_modules\\bl",
+      "cache": "\\bl\\4.1.0"
+    }
+  },
+  "buffer": {
+    "5.7.1": {
+      "path": "\\node_modules\\buffer",
+      "cache": "\\buffer\\5.7.1"
+    }
+  },
+  "base64-js": {
+    "1.5.1": {
+      "path": "\\node_modules\\base64-js",
+      "cache": "\\base64-js\\1.5.1"
+    }
+  },
+  "ieee754": {
+    "1.2.1": {
+      "path": "\\node_modules\\ieee754",
+      "cache": "\\ieee754\\1.2.1"
+    }
+  },
+  "readable-stream": {
+    "3.6.0": {
+      "path": "\\node_modules\\readable-stream",
+      "cache": "\\readable-stream\\3.6.0"
+    }
+  },
+  "string_decoder": {
+    "1.3.0": {
+      "path": "\\node_modules\\string_decoder",
+      "cache": "\\string_decoder\\1.3.0"
+    }
+  },
+  "safe-buffer": {
+    "5.2.1": {
+      "path": "\\node_modules\\safe-buffer",
+      "cache": "\\safe-buffer\\5.2.1"
+    }
+  },
+  "util-deprecate": {
+    "1.0.2": {
+      "path": "\\node_modules\\util-deprecate",
+      "cache": "\\util-deprecate\\1.0.2"
+    }
+  },
+  "inherits": {
+    "2.0.4": {
+      "path": "\\node_modules\\inherits",
+      "cache": "\\inherits\\2.0.4"
+    }
+  },
+  "unbzip2-stream": {
+    "1.4.3": {
+      "path": "\\node_modules\\unbzip2-stream",
+      "cache": "\\unbzip2-stream\\1.4.3"
+    }
+  },
+  "through": {
+    "2.3.8": {
+      "path": "\\node_modules\\through",
+      "cache": "\\through\\2.3.8"
+    }
+  },
+  "ws": {
+    "8.10.0": {
+      "path": "\\node_modules\\ws",
+      "cache": "\\ws\\8.10.0"
+    }
+  },
+  "glob": {
+    "7.1.6": {
+      "path": "\\node_modules\\glob",
+      "cache": "\\glob\\7.1.6"
+    }
+  },
+  "fs.realpath": {
+    "1.0.0": {
+      "path": "\\node_modules\\fs.realpath",
+      "cache": "\\fs.realpath\\1.0.0"
+    }
+  },
+  "inflight": {
+    "1.0.6": {
+      "path": "\\node_modules\\inflight",
+      "cache": "\\inflight\\1.0.6"
+    }
+  },
+  "minimatch": {
+    "3.1.2": {
+      "path": "\\node_modules\\minimatch",
+      "cache": "\\minimatch\\3.1.2"
+    }
+  },
+  "brace-expansion": {
+    "1.1.11": {
+      "path": "\\node_modules\\brace-expansion",
+      "cache": "\\brace-expansion\\1.1.11"
+    }
+  },
+  "balanced-match": {
+    "1.0.2": {
+      "path": "\\node_modules\\balanced-match",
+      "cache": "\\balanced-match\\1.0.2"
+    }
+  },
+  "concat-map": {
+    "0.0.1": {
+      "path": "\\node_modules\\concat-map",
+      "cache": "\\concat-map\\0.0.1"
+    }
+  },
+  "path-is-absolute": {
+    "1.0.1": {
+      "path": "\\node_modules\\path-is-absolute",
+      "cache": "\\path-is-absolute\\1.0.1"
+    }
+  },
+  "puppeteer-extra-plugin": {
+    "3.2.2": {
+      "path": "\\node_modules\\puppeteer-extra-plugin",
+      "cache": "\\puppeteer-extra-plugin\\3.2.2"
+    }
+  },
+  "merge-deep": {
+    "3.0.3": {
+      "path": "\\node_modules\\merge-deep",
+      "cache": "\\merge-deep\\3.0.3"
+    }
+  },
+  "arr-union": {
+    "3.1.0": {
+      "path": "\\node_modules\\arr-union",
+      "cache": "\\arr-union\\3.1.0"
+    }
+  },
+  "clone-deep": {
+    "0.2.4": {
+      "path": "\\node_modules\\clone-deep",
+      "cache": "\\clone-deep\\0.2.4"
+    }
+  },
+  "for-own": {
+    "0.1.5": {
+      "path": "\\node_modules\\for-own",
+      "cache": "\\for-own\\0.1.5"
+    }
+  },
+  "for-in": {
+    "1.0.2": {
+      "path": "\\node_modules\\for-in",
+      "cache": "\\for-in\\1.0.2"
+    },
+    "0.1.8": {
+      "path": "\\node_modules\\mixin-object\\node_modules\\for-in",
+      "cache": "\\for-in\\0.1.8"
+    }
+  },
+  "is-plain-object": {
+    "2.0.4": {
+      "path": "\\node_modules\\is-plain-object",
+      "cache": "\\is-plain-object\\2.0.4"
+    }
+  },
+  "isobject": {
+    "3.0.1": {
+      "path": "\\node_modules\\isobject",
+      "cache": "\\isobject\\3.0.1"
+    }
+  },
+  "lazy-cache": {
+    "1.0.4": {
+      "path": "\\node_modules\\lazy-cache",
+      "cache": "\\lazy-cache\\1.0.4"
+    },
+    "0.2.7": {
+      "path": "\\node_modules\\shallow-clone\\node_modules\\lazy-cache",
+      "cache": "\\lazy-cache\\0.2.7"
+    }
+  },
+  "shallow-clone": {
+    "0.1.2": {
+      "path": "\\node_modules\\shallow-clone",
+      "cache": "\\shallow-clone\\0.1.2"
+    }
+  },
+  "is-extendable": {
+    "0.1.1": {
+      "path": "\\node_modules\\is-extendable",
+      "cache": "\\is-extendable\\0.1.1"
+    }
+  },
+  "kind-of": {
+    "2.0.1": {
+      "path": "\\node_modules\\kind-of",
+      "cache": "\\kind-of\\2.0.1"
+    },
+    "3.2.2": {
+      "path": "\\node_modules\\merge-deep\\node_modules\\kind-of",
+      "cache": "\\kind-of\\3.2.2"
+    }
+  },
+  "is-buffer": {
+    "1.1.6": {
+      "path": "\\node_modules\\is-buffer",
+      "cache": "\\is-buffer\\1.1.6"
+    }
+  },
+  "mixin-object": {
+    "2.0.1": {
+      "path": "\\node_modules\\mixin-object",
+      "cache": "\\mixin-object\\2.0.1"
+    }
+  },
+  "resolve": {
+    "1.22.1": {
+      "path": "\\node_modules\\resolve",
+      "cache": "\\resolve\\1.22.1"
+    }
+  },
+  "is-core-module": {
+    "2.11.0": {
+      "path": "\\node_modules\\is-core-module",
+      "cache": "\\is-core-module\\2.11.0"
+    }
+  },
+  "has": {
+    "1.0.3": {
+      "path": "\\node_modules\\has",
+      "cache": "\\has\\1.0.3"
+    }
+  },
+  "function-bind": {
+    "1.1.1": {
+      "path": "\\node_modules\\function-bind",
+      "cache": "\\function-bind\\1.1.1"
+    }
+  },
+  "path-parse": {
+    "1.0.7": {
+      "path": "\\node_modules\\path-parse",
+      "cache": "\\path-parse\\1.0.7"
+    }
+  },
+  "supports-preserve-symlinks-flag": {
+    "1.0.0": {
+      "path": "\\node_modules\\supports-preserve-symlinks-flag",
+      "cache": "\\supports-preserve-symlinks-flag\\1.0.0"
+    }
+  },
+  "source-map-support": {
+    "0.5.21": {
+      "path": "\\node_modules\\source-map-support",
+      "cache": "\\source-map-support\\0.5.21"
+    }
+  },
+  "buffer-from": {
+    "1.1.2": {
+      "path": "\\node_modules\\buffer-from",
+      "cache": "\\buffer-from\\1.1.2"
+    }
+  },
+  "source-map": {
+    "0.6.1": {
+      "path": "\\node_modules\\source-map",
+      "cache": "\\source-map\\0.6.1"
+    }
+  },
+  "ts-node": {
+    "10.9.1": {
+      "path": "\\node_modules\\ts-node",
+      "cache": "\\ts-node\\10.9.1"
+    }
+  },
+  "@cspotcode/source-map-support": {
+    "0.8.1": {
+      "path": "\\node_modules\\@cspotcode\\source-map-support",
+      "cache": "\\@cspotcode\\source-map-support\\0.8.1"
+    }
+  },
+  "@jridgewell/trace-mapping": {
+    "0.3.9": {
+      "path": "\\node_modules\\@jridgewell\\trace-mapping",
+      "cache": "\\@jridgewell\\trace-mapping\\0.3.9"
+    }
+  },
+  "@jridgewell/resolve-uri": {
+    "3.1.0": {
+      "path": "\\node_modules\\@jridgewell\\resolve-uri",
+      "cache": "\\@jridgewell\\resolve-uri\\3.1.0"
+    }
+  },
+  "@jridgewell/sourcemap-codec": {
+    "1.4.14": {
+      "path": "\\node_modules\\@jridgewell\\sourcemap-codec",
+      "cache": "\\@jridgewell\\sourcemap-codec\\1.4.14"
+    }
+  },
+  "@tsconfig/node10": {
+    "1.0.9": {
+      "path": "\\node_modules\\@tsconfig\\node10",
+      "cache": "\\@tsconfig\\node10\\1.0.9"
+    }
+  },
+  "@tsconfig/node12": {
+    "1.0.11": {
+      "path": "\\node_modules\\@tsconfig\\node12",
+      "cache": "\\@tsconfig\\node12\\1.0.11"
+    }
+  },
+  "@tsconfig/node14": {
+    "1.0.3": {
+      "path": "\\node_modules\\@tsconfig\\node14",
+      "cache": "\\@tsconfig\\node14\\1.0.3"
+    }
+  },
+  "@tsconfig/node16": {
+    "1.0.3": {
+      "path": "\\node_modules\\@tsconfig\\node16",
+      "cache": "\\@tsconfig\\node16\\1.0.3"
+    }
+  },
+  "acorn": {
+    "8.8.0": {
+      "path": "\\node_modules\\acorn",
+      "cache": "\\acorn\\8.8.0"
+    }
+  },
+  "acorn-walk": {
+    "8.2.0": {
+      "path": "\\node_modules\\acorn-walk",
+      "cache": "\\acorn-walk\\8.2.0"
+    }
+  },
+  "arg": {
+    "4.1.3": {
+      "path": "\\node_modules\\arg",
+      "cache": "\\arg\\4.1.3"
+    }
+  },
+  "create-require": {
+    "1.1.1": {
+      "path": "\\node_modules\\create-require",
+      "cache": "\\create-require\\1.1.1"
+    }
+  },
+  "diff": {
+    "4.0.2": {
+      "path": "\\node_modules\\diff",
+      "cache": "\\diff\\4.0.2"
+    }
+  },
+  "make-error": {
+    "1.3.6": {
+      "path": "\\node_modules\\make-error",
+      "cache": "\\make-error\\1.3.6"
+    }
+  },
+  "v8-compile-cache-lib": {
+    "3.0.1": {
+      "path": "\\node_modules\\v8-compile-cache-lib",
+      "cache": "\\v8-compile-cache-lib\\3.0.1"
+    }
+  },
+  "yn": {
+    "3.1.1": {
+      "path": "\\node_modules\\yn",
+      "cache": "\\yn\\3.1.1"
+    }
+  },
+  "tsconfig": {
+    "7.0.0": {
+      "path": "\\node_modules\\tsconfig",
+      "cache": "\\tsconfig\\7.0.0"
+    }
+  },
+  "@types/strip-bom": {
+    "3.0.0": {
+      "path": "\\node_modules\\@types\\strip-bom",
+      "cache": "\\@types\\strip-bom\\3.0.0"
+    }
+  },
+  "@types/strip-json-comments": {
+    "0.0.30": {
+      "path": "\\node_modules\\@types\\strip-json-comments",
+      "cache": "\\@types\\strip-json-comments\\0.0.30"
+    }
+  },
+  "strip-bom": {
+    "3.0.0": {
+      "path": "\\node_modules\\strip-bom",
+      "cache": "\\strip-bom\\3.0.0"
+    }
+  },
+  "strip-json-comments": {
+    "2.0.1": {
+      "path": "\\node_modules\\strip-json-comments",
+      "cache": "\\strip-json-comments\\2.0.1"
+    }
+  },
+  "tree-kill": {
+    "1.2.2": {
+      "path": "\\node_modules\\tree-kill",
+      "cache": "\\tree-kill\\1.2.2"
+    }
+  },
+  "puppeteer-extra-plugin-stealth": {
+    "2.11.1": {
+      "path": "\\node_modules\\puppeteer-extra-plugin-stealth",
+      "cache": "\\puppeteer-extra-plugin-stealth\\2.11.1"
+    }
+  },
+  "puppeteer-extra-plugin-user-preferences": {
+    "2.4.0": {
+      "path": "\\node_modules\\puppeteer-extra-plugin-user-preferences",
+      "cache": "\\puppeteer-extra-plugin-user-preferences\\2.4.0"
+    }
+  },
+  "puppeteer-extra-plugin-user-data-dir": {
+    "2.4.0": {
+      "path": "\\node_modules\\puppeteer-extra-plugin-user-data-dir",
+      "cache": "\\puppeteer-extra-plugin-user-data-dir\\2.4.0"
+    }
+  },
+  "fs-extra": {
+    "10.0.1": {
+      "path": "\\node_modules\\fs-extra",
+      "cache": "\\fs-extra\\10.0.1"
+    }
+  },
+  "graceful-fs": {
+    "4.2.10": {
+      "path": "\\node_modules\\graceful-fs",
+      "cache": "\\graceful-fs\\4.2.10"
+    }
+  },
+  "jsonfile": {
+    "6.1.0": {
+      "path": "\\node_modules\\jsonfile",
+      "cache": "\\jsonfile\\6.1.0"
+    }
+  },
+  "universalify": {
+    "2.0.0": {
+      "path": "\\node_modules\\universalify",
+      "cache": "\\universalify\\2.0.0"
+    }
+  },
+  "@types/ms": {
+    "0.7.31": {
+      "path": "\\node_modules\\@types\\ms",
+      "cache": "\\@types\\ms\\0.7.31"
+    }
+  },
+  "@types/filesystem": {
+    "0.0.32": {
+      "path": "\\node_modules\\@types\\filesystem",
+      "cache": "\\@types\\filesystem\\0.0.32"
+    }
+  },
+  "@types/har-format": {
+    "1.2.9": {
+      "path": "\\node_modules\\@types\\har-format",
+      "cache": "\\@types\\har-format\\1.2.9"
+    }
+  },
+  "@types/node": {
+    "18.11.9": {
+      "path": "\\node_modules\\@types\\node",
+      "cache": "\\@types\\node\\18.11.9"
+    }
+  }
+}

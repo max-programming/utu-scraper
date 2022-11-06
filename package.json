@@ -1,0 +1,21 @@
+{
+  "name": "utu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd app.ts --respawn --exit-child --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer-extra": "3.3.4",
+    "puppeteer-extra-plugin-adblocker": "2.13.5",
+    "puppeteer-extra-plugin-stealth": "2.11.1"
+  },
+  "devDependencies": {
+    "typescript": "4.8.4",
+    "ts-node-dev": "2.0.0"
+  }
+}
