@@ -8,7 +8,7 @@ export async function uploadImage(image: string | Buffer) {
   try {
     const res = await axios.post('https://api.imgbb.com/1/upload', form, {
       params: {
-        expiration: 60,
+        expiration: 600,
         key: imgbbKey,
       },
       headers: {
