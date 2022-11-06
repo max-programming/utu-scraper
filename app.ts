@@ -44,7 +44,7 @@ server.get('/evaluation', async (request, reply) => {
 
 server.listen(
   {
-    port: 8080,
+    port: +process.env.PORT! || 8080,
     host: process.env.NODE_ENV === 'production' ? '0.0.0.0' : '127.0.0.1',
   },
   (err, address) => {
