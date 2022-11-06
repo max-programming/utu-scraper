@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsnd app.ts --respawn --exit-child --watch"
+    "dev": "tsnd app.ts --respawn --exit-child --watch",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
