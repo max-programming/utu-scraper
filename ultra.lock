@@ -1,4 +1,10 @@
 {
+  "@fastify/view": {
+    "7.1.2": {
+      "path": "\\node_modules\\@fastify\\view",
+      "cache": "\\@fastify\\view\\7.1.2"
+    }
+  },
   "axios": {
     "1.1.3": {
       "path": "\\node_modules\\axios",
@@ -9,6 +15,12 @@
     "4.9.2": {
       "path": "\\node_modules\\fastify",
       "cache": "\\fastify\\4.9.2"
+    }
+  },
+  "form-data": {
+    "4.0.0": {
+      "path": "\\node_modules\\form-data",
+      "cache": "\\form-data\\4.0.0"
     }
   },
   "puppeteer-extra": {
@@ -41,10 +53,10 @@
       "cache": "\\typescript\\4.8.4"
     }
   },
-  "form-data": {
-    "4.0.0": {
-      "path": "\\node_modules\\form-data",
-      "cache": "\\form-data\\4.0.0"
+  "hashlru": {
+    "2.3.0": {
+      "path": "\\node_modules\\hashlru",
+      "cache": "\\hashlru\\2.3.0"
     }
   },
   "follow-redirects": {
@@ -57,6 +69,12 @@
     "3.3.1": {
       "path": "\\node_modules\\@fastify\\ajv-compiler",
       "cache": "\\@fastify\\ajv-compiler\\3.3.1"
+    }
+  },
+  "asynckit": {
+    "0.4.0": {
+      "path": "\\node_modules\\asynckit",
+      "cache": "\\asynckit\\0.4.0"
     }
   },
   "@types/debug": {
@@ -77,12 +95,6 @@
       "cache": "\\puppeteer-extra-plugin-user-preferences\\2.4.0"
     }
   },
-  "asynckit": {
-    "0.4.0": {
-      "path": "\\node_modules\\asynckit",
-      "cache": "\\asynckit\\0.4.0"
-    }
-  },
   "ajv": {
     "8.11.0": {
       "path": "\\node_modules\\ajv",
@@ -99,6 +111,12 @@
     "2.4.0": {
       "path": "\\node_modules\\puppeteer-extra-plugin-user-data-dir",
       "cache": "\\puppeteer-extra-plugin-user-data-dir\\2.4.0"
+    }
+  },
+  "fastify-plugin": {
+    "4.3.0": {
+      "path": "\\node_modules\\fastify-plugin",
+      "cache": "\\fastify-plugin\\4.3.0"
     }
   },
   "combined-stream": {
@@ -483,6 +501,10 @@
     "2.4.2": {
       "path": "\\node_modules\\chalk",
       "cache": "\\chalk\\2.4.2"
+    },
+    "4.1.2": {
+      "path": "\\node_modules\\jake\\node_modules\\chalk",
+      "cache": "\\chalk\\4.1.2"
     }
   },
   "mixin-object": {
@@ -501,6 +523,10 @@
     "3.2.1": {
       "path": "\\node_modules\\ansi-styles",
       "cache": "\\ansi-styles\\3.2.1"
+    },
+    "4.3.0": {
+      "path": "\\node_modules\\jake\\node_modules\\chalk\\node_modules\\ansi-styles",
+      "cache": "\\ansi-styles\\4.3.0"
     }
   },
   "fast-querystring": {
@@ -513,6 +539,10 @@
     "1.9.3": {
       "path": "\\node_modules\\color-convert",
       "cache": "\\color-convert\\1.9.3"
+    },
+    "2.0.1": {
+      "path": "\\node_modules\\jake\\node_modules\\chalk\\node_modules\\ansi-styles\\node_modules\\color-convert",
+      "cache": "\\color-convert\\2.0.1"
     }
   },
   "fast-decode-uri-component": {
@@ -525,6 +555,10 @@
     "1.1.3": {
       "path": "\\node_modules\\color-name",
       "cache": "\\color-name\\1.1.3"
+    },
+    "1.1.4": {
+      "path": "\\node_modules\\jake\\node_modules\\chalk\\node_modules\\ansi-styles\\node_modules\\color-convert\\node_modules\\color-name",
+      "cache": "\\color-name\\1.1.4"
     }
   },
   "safe-regex2": {
@@ -537,6 +571,10 @@
     "5.5.0": {
       "path": "\\node_modules\\supports-color",
       "cache": "\\supports-color\\5.5.0"
+    },
+    "7.2.0": {
+      "path": "\\node_modules\\jake\\node_modules\\chalk\\node_modules\\supports-color",
+      "cache": "\\supports-color\\7.2.0"
     }
   },
   "ret": {
@@ -549,6 +587,10 @@
     "3.0.0": {
       "path": "\\node_modules\\has-flag",
       "cache": "\\has-flag\\3.0.0"
+    },
+    "4.0.0": {
+      "path": "\\node_modules\\jake\\node_modules\\chalk\\node_modules\\supports-color\\node_modules\\has-flag",
+      "cache": "\\has-flag\\4.0.0"
     }
   },
   "escape-string-regexp": {
@@ -831,6 +873,80 @@
       "cache": "\\mkdirp\\1.0.4"
     }
   },
+  "glob": {
+    "7.1.6": {
+      "path": "\\node_modules\\glob",
+      "cache": "\\glob\\7.1.6"
+    }
+  },
+  "fs.realpath": {
+    "1.0.0": {
+      "path": "\\node_modules\\fs.realpath",
+      "cache": "\\fs.realpath\\1.0.0"
+    }
+  },
+  "inflight": {
+    "1.0.6": {
+      "path": "\\node_modules\\inflight",
+      "cache": "\\inflight\\1.0.6"
+    }
+  },
+  "wrappy": {
+    "1.0.2": {
+      "path": "\\node_modules\\wrappy",
+      "cache": "\\wrappy\\1.0.2"
+    }
+  },
+  "once": {
+    "1.4.0": {
+      "path": "\\node_modules\\once",
+      "cache": "\\once\\1.4.0"
+    }
+  },
+  "minimatch": {
+    "3.1.2": {
+      "path": "\\node_modules\\minimatch",
+      "cache": "\\minimatch\\3.1.2"
+    },
+    "5.1.0": {
+      "path": "\\node_modules\\filelist\\node_modules\\minimatch",
+      "cache": "\\minimatch\\5.1.0"
+    }
+  },
+  "brace-expansion": {
+    "1.1.11": {
+      "path": "\\node_modules\\brace-expansion",
+      "cache": "\\brace-expansion\\1.1.11"
+    },
+    "2.0.1": {
+      "path": "\\node_modules\\filelist\\node_modules\\minimatch\\node_modules\\brace-expansion",
+      "cache": "\\brace-expansion\\2.0.1"
+    }
+  },
+  "balanced-match": {
+    "1.0.2": {
+      "path": "\\node_modules\\balanced-match",
+      "cache": "\\balanced-match\\1.0.2"
+    }
+  },
+  "concat-map": {
+    "0.0.1": {
+      "path": "\\node_modules\\concat-map",
+      "cache": "\\concat-map\\0.0.1"
+    }
+  },
+  "path-is-absolute": {
+    "1.0.1": {
+      "path": "\\node_modules\\path-is-absolute",
+      "cache": "\\path-is-absolute\\1.0.1"
+    }
+  },
+  "inherits": {
+    "2.0.4": {
+      "path": "\\node_modules\\inherits",
+      "cache": "\\inherits\\2.0.4"
+    }
+  },
   "atomic-sleep": {
     "1.0.0": {
       "path": "\\node_modules\\atomic-sleep",
@@ -981,72 +1097,6 @@
     "7.3.8": {
       "path": "\\node_modules\\semver",
       "cache": "\\semver\\7.3.8"
-    }
-  },
-  "glob": {
-    "7.1.6": {
-      "path": "\\node_modules\\glob",
-      "cache": "\\glob\\7.1.6"
-    }
-  },
-  "fs.realpath": {
-    "1.0.0": {
-      "path": "\\node_modules\\fs.realpath",
-      "cache": "\\fs.realpath\\1.0.0"
-    }
-  },
-  "inflight": {
-    "1.0.6": {
-      "path": "\\node_modules\\inflight",
-      "cache": "\\inflight\\1.0.6"
-    }
-  },
-  "wrappy": {
-    "1.0.2": {
-      "path": "\\node_modules\\wrappy",
-      "cache": "\\wrappy\\1.0.2"
-    }
-  },
-  "once": {
-    "1.4.0": {
-      "path": "\\node_modules\\once",
-      "cache": "\\once\\1.4.0"
-    }
-  },
-  "minimatch": {
-    "3.1.2": {
-      "path": "\\node_modules\\minimatch",
-      "cache": "\\minimatch\\3.1.2"
-    }
-  },
-  "brace-expansion": {
-    "1.1.11": {
-      "path": "\\node_modules\\brace-expansion",
-      "cache": "\\brace-expansion\\1.1.11"
-    }
-  },
-  "balanced-match": {
-    "1.0.2": {
-      "path": "\\node_modules\\balanced-match",
-      "cache": "\\balanced-match\\1.0.2"
-    }
-  },
-  "concat-map": {
-    "0.0.1": {
-      "path": "\\node_modules\\concat-map",
-      "cache": "\\concat-map\\0.0.1"
-    }
-  },
-  "path-is-absolute": {
-    "1.0.1": {
-      "path": "\\node_modules\\path-is-absolute",
-      "cache": "\\path-is-absolute\\1.0.1"
-    }
-  },
-  "inherits": {
-    "2.0.4": {
-      "path": "\\node_modules\\inherits",
-      "cache": "\\inherits\\2.0.4"
     }
   },
   "@types/yauzl": {
@@ -1391,10 +1441,28 @@
       "cache": "\\tree-kill\\1.2.2"
     }
   },
-  "@types/filesystem": {
-    "0.0.32": {
-      "path": "\\node_modules\\@types\\filesystem",
-      "cache": "\\@types\\filesystem\\0.0.32"
+  "ejs": {
+    "3.1.8": {
+      "path": "\\node_modules\\ejs",
+      "cache": "\\ejs\\3.1.8"
+    }
+  },
+  "jake": {
+    "10.8.5": {
+      "path": "\\node_modules\\jake",
+      "cache": "\\jake\\10.8.5"
+    }
+  },
+  "async": {
+    "3.2.4": {
+      "path": "\\node_modules\\async",
+      "cache": "\\async\\3.2.4"
+    }
+  },
+  "filelist": {
+    "1.0.4": {
+      "path": "\\node_modules\\filelist",
+      "cache": "\\filelist\\1.0.4"
     }
   },
   "@types/ms": {
@@ -1407,6 +1475,12 @@
     "1.2.9": {
       "path": "\\node_modules\\@types\\har-format",
       "cache": "\\@types\\har-format\\1.2.9"
+    }
+  },
+  "@types/filesystem": {
+    "0.0.32": {
+      "path": "\\node_modules\\@types\\filesystem",
+      "cache": "\\@types\\filesystem\\0.0.32"
     }
   },
   "@types/node": {
