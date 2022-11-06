@@ -6,7 +6,6 @@ export async function getAttendanceScreenshot(page: Page) {
   await page.waitForSelector(attendanceSelector);
   const attendanceDiv = await page.$(attendanceSelector);
   const attendanceImage = await attendanceDiv?.screenshot();
-  console.log('Attendance Screenshot saved');
   return await uploadImage(attendanceImage!);
 }
 
@@ -15,6 +14,5 @@ export async function getEvaluationScreenshot(page: Page) {
   await page.waitForSelector(evaluationSelector);
   const evaluationDiv = await page.$(evaluationSelector);
   const evaluationImage = await evaluationDiv?.screenshot();
-  console.log('Evaluation Screenshot saved');
   return await uploadImage(evaluationImage!);
 }
