@@ -5,7 +5,17 @@ import scraper from './scraper';
 
 const server = fastify();
 
-server.register(FastifyEnvPlugin);
+server.register(FastifyEnvPlugin, {
+  dotenv: true,
+  schema: {
+    type: 'object',
+    properties: {
+      USER_ID: { type: 'string' },
+      PASSWORD: { type: 'string' },
+      IMGBB_KEY: { type: 'string' },
+    },
+  },
+});
 server.register(FastifyViewPlugin, {
   engine: {
     ejs: require('ejs'),
