@@ -1,17 +1,20 @@
 import { Page } from 'puppeteer';
+import { uploadImage } from './uploader';
 
 export async function getAttendanceScreenshot(page: Page) {
   const attendanceSelector = '#ctl00_MainContent_divAttendance';
   await page.waitForSelector(attendanceSelector);
   const attendanceDiv = await page.$(attendanceSelector);
-  await attendanceDiv?.screenshot({ path: './attendance.png' });
+  const attendanceImage = await attendanceDiv?.screenshot();
   console.log('Attendance Screenshot saved');
+  return await uploadImage(attendanceImage!);
 }
 
 export async function getEvaluationScreenshot(page: Page) {
   const evaluationSelector = '#ctl00_MainContent_UpdatePanel1';
   await page.waitForSelector(evaluationSelector);
   const evaluationDiv = await page.$(evaluationSelector);
-  await evaluationDiv?.screenshot({ path: './evaluation.png' });
+  const evaluationImage = await evaluationDiv?.screenshot();
   console.log('Evaluation Screenshot saved');
+  return await uploadImage(evaluationImage!);
 }
