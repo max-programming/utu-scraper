@@ -14,8 +14,8 @@ puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 async function scraper(type: 'attendance' | 'evaluation') {
   const browser = await puppeteer.launch({
     headless: true,
-    executablePath:
-      'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    // executablePath:
+    //   'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
   });
 
   console.log('Browser started');
