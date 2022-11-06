@@ -15,6 +15,7 @@ puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 async function scraper(type: 'attendance' | 'evaluation') {
   const browser = await puppeteer.launch({
     headless: true,
+    args: ['--no-sandbox'],
     executablePath:
       process.env.NODE_ENV === 'production'
         ? executablePath()
