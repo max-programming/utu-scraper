@@ -1,6 +1,7 @@
 import puppeteer from 'puppeteer-extra';
 import AdblockerPlugin from 'puppeteer-extra-plugin-adblocker';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
+import { executablePath } from 'puppeteer';
 
 import {
   getAttendanceScreenshot,
@@ -14,8 +15,10 @@ puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 async function scraper(type: 'attendance' | 'evaluation') {
   const browser = await puppeteer.launch({
     headless: true,
-    // executablePath:
-    //   'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+    executablePath:
+      process.env.NODE_ENV === 'production'
+        ? executablePath()
+        : 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
   });
 
   console.log('Browser started');
