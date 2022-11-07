@@ -29,7 +29,7 @@ server.get('/', (request, reply) => {
 server.get('/attendance', async (request, reply) => {
   const image = await scraper('attendance');
   return reply.view('./templates/screenshotPage.ejs', {
-    image: image.data.data.display_url,
+    image: image?.data.data.display_url,
     title: 'Attendance Page',
   });
 });
@@ -37,7 +37,7 @@ server.get('/attendance', async (request, reply) => {
 server.get('/evaluation', async (request, reply) => {
   const image = await scraper('evaluation');
   return reply.view('./templates/screenshotPage.ejs', {
-    image: image.data.data.display_url,
+    image: image?.data.data.display_url,
     title: 'Evaluation Page',
   });
 });

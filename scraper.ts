@@ -14,7 +14,7 @@ puppeteer.use(AdblockerPlugin({ blockTrackers: true }));
 
 async function scraper(type: 'attendance' | 'evaluation') {
   const browser = await puppeteer.launch({
-    headless: true,
+    headless: process.env.NODE_ENV === 'production' ? true : false,
     args: ['--no-sandbox'],
     executablePath:
       process.env.NODE_ENV === 'production'
@@ -32,12 +32,15 @@ async function scraper(type: 'attendance' | 'evaluation') {
   console.log('Page opened');
 
   await Promise.all([await login(page), await page.waitForNavigation()]);
+
   if (type === 'attendance') {
     const attImg = await getAttendanceScreenshot(page);
     await browser.close();
     return attImg;
   } else {
-    await page.click('#ctl00_mnuItems > ul > li:nth-child(3) > a');
+    await page.goto(
+      'https://app.utu.ac.in/EngineeringSIS/Student/StudentAssessment.aspx'
+    );
     const evalImg = await getEvaluationScreenshot(page);
     await browser.close();
     return evalImg;
