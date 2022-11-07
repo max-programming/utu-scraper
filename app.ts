@@ -29,7 +29,8 @@ server.get('/', (request, reply) => {
 server.get('/attendance', async (request, reply) => {
   const image = await scraper('attendance');
   return reply.view('./templates/screenshotPage.ejs', {
-    image: image?.data.data.display_url,
+    // image: image.imgbb.data.data.display_url,
+    url: 'data:image/png;base64,' + image.image?.toString('base64'),
     title: 'Attendance Page',
   });
 });
@@ -37,7 +38,8 @@ server.get('/attendance', async (request, reply) => {
 server.get('/evaluation', async (request, reply) => {
   const image = await scraper('evaluation');
   return reply.view('./templates/screenshotPage.ejs', {
-    image: image?.data.data.display_url,
+    // image: image.imgbb.data.data.display_url,
+    url: 'data:image/png;base64,' + image.image?.toString('base64'),
     title: 'Evaluation Page',
   });
 });
